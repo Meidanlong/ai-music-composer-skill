@@ -1,0 +1,40 @@
+# Env secrets
+.env
+.env.*
+!.env.example
+
+# Media / audio temp files
+tmp/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.mid
+*.midi
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.Python
+*.egg-info/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
